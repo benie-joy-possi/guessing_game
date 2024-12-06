@@ -3,6 +3,8 @@
 guessing_number() {
        rand_number=$((RANDOM % $1))
           
+
+
      read -p "Guess a number between 0 and $1: " guest_number
 
      for i in {1..3}; do
