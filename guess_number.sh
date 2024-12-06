@@ -20,8 +20,6 @@ guessing_number() {
      if [ $i -eq 3 ]; then
           echo "You lose! The correct number was $rand_number."
      fi
-
-
 }
 
 # Call the function with a range (e.g., 10)
